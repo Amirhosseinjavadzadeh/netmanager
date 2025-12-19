@@ -334,3 +334,7 @@ lo'
 2025-12-19 11:53:41 [INFO] EXEC: nmcli con up 'netplan-ens33'
 2025-12-19 11:53:41 [INFO] DHCP enabled on ens33
 2025-12-19 11:53:43 [INFO] NetManager exited
+2025-12-19 12:09:46 [INFO] NetManager started
+2025-12-19 12:10:13 [INFO] Set hostname to Mynewserver
+2025-12-19 12:10:13 [INFO] Hostname set to Mynewserver
+2025-12-19 12:10:16 [INFO] NetManager exited
