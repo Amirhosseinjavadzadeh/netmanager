@@ -1,0 +1,42 @@
+2025-12-18 12:51:06 [INFO] EXEC: nmcli dev show | grep 'IP4.DNS'
+2025-12-18 12:51:06 [INFO] EXEC: nmcli con mod netplan-ens33
+lo ipv4.dns 8.8.8.8
+2025-12-18 12:51:06 [ERROR] Command failed
+2025-12-18 12:51:06 [INFO] EXEC: nmcli con up netplan-ens33
+lo
+2025-12-18 12:51:06 [ERROR] Command failed
+2025-12-18 12:51:06 [INFO] DNS temporarily set to 8.8.8.8
+2025-12-18 12:54:09 [INFO] EXEC: nmcli con mod 'netplan-ens33' ipv4.dns 8.8.8.8
+2025-12-18 12:54:10 [INFO] EXEC: nmcli con up 'netplan-ens33'
+2025-12-18 12:54:10 [INFO] DNS temporarily set to 8.8.8.8
+2025-12-18 13:01:28 [INFO] EXEC: nmcli con mod 'netplan-ens33' ipv4.dns 8.8.8.8
+2025-12-18 13:01:29 [INFO] EXEC: nmcli con up 'netplan-ens33'
+2025-12-18 13:01:29 [INFO] DNS temporarily set to 8.8.8.8
+2025-12-18 13:05:58 [INFO] Hostname set to MyServer
+2025-12-18 13:08:24 [INFO] EXEC: nmcli con mod ens33 ipv4.addresses 192.168.56.100/24
+2025-12-18 13:08:24 [ERROR] Command failed
+2025-12-18 13:08:24 [INFO] EXEC: nmcli con mod ens33 ipv4.gateway 192.168.56.1
+2025-12-18 13:08:24 [ERROR] Command failed
+2025-12-18 13:08:24 [INFO] EXEC: nmcli con mod ens33 ipv4.method manual
+2025-12-18 13:08:24 [ERROR] Command failed
+2025-12-18 13:08:24 [INFO] EXEC: nmcli con up ens33
+2025-12-18 13:08:25 [ERROR] Command failed
+2025-12-18 13:08:25 [INFO] Static IP set on ens33: 192.168.56.100
+2025-12-18 13:08:25 [INFO] EXEC: nmcli con mod ens33 ipv4.method auto
+2025-12-18 13:08:25 [ERROR] Command failed
+2025-12-18 13:08:25 [INFO] EXEC: nmcli con up ens33
+2025-12-18 13:08:25 [ERROR] Command failed
+2025-12-18 13:08:25 [INFO] DHCP enabled on ens33
+2025-12-18 13:21:22 [INFO] EXEC: nmcli con mod 'netplan-ens33' ipv4.dns 8.8.8.8
+2025-12-18 13:21:22 [INFO] EXEC: nmcli con up 'netplan-ens33'
+2025-12-18 13:21:23 [INFO] DNS temporarily set to 8.8.8.8
+2025-12-18 13:21:23 [INFO] EXEC: nmcli con mod 'netplan-ens33' ipv4.addresses 192.168.56.100/24
+2025-12-18 13:21:23 [INFO] EXEC: nmcli con mod 'netplan-ens33' ipv4.gateway 192.168.56.1
+2025-12-18 13:21:23 [INFO] EXEC: nmcli con mod 'netplan-ens33' ipv4.method manual
+2025-12-18 13:21:24 [INFO] EXEC: nmcli con up 'netplan-ens33'
+2025-12-18 13:21:24 [INFO] Static IP set on ens33: 192.168.56.100
+2025-12-18 13:21:24 [INFO] EXEC: nmcli con mod 'netplan-ens33' ipv4.method auto
+2025-12-18 13:21:24 [INFO] EXEC: nmcli con up 'netplan-ens33'
+2025-12-18 13:21:25 [INFO] DHCP enabled on ens33
+2025-12-18 15:32:35 [INFO] EXEC: echo 'nameserver 8.8.8.8' > /etc/resolv.conf
+2025-12-18 15:32:35 [INFO] DNS temporarily set to 8.8.8.8

@@ -1,17 +1,18 @@
 #!/bin/bash
 
-LOG_FILE="logs/netmanager.log"
+# مسیر لاگ ثابت
+LOG_DIR="/home/amir/netmanager/logs"
+LOG_FILE="$LOG_DIR/netmanager.log"
 
-mkdir -p logs
+# ایجاد دایرکتوری در صورت نبودن
+mkdir -p "$LOG_DIR"
 
+# تابع لاگ INFO
 log_info() {
-    echo "$(date '+%F %T') [INFO] $1" | tee -a "$LOG_FILE"
+    echo "$(date '+%Y-%m-%d %H:%M:%S') [INFO] $1" >> "$LOG_FILE"
 }
 
-log_warn() {
-    echo "$(date '+%F %T') [WARN] $1" | tee -a "$LOG_FILE"
-}
-
+# تابع لاگ ERROR
 log_error() {
-    echo "$(date '+%F %T') [ERROR] $1" | tee -a "$LOG_FILE" >&2
+    echo "$(date '+%Y-%m-%d %H:%M:%S') [ERROR] $1" >> "$LOG_FILE"
 }
