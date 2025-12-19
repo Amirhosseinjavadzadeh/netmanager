@@ -338,3 +338,80 @@ lo'
 2025-12-19 12:10:13 [INFO] Set hostname to Mynewserver
 2025-12-19 12:10:13 [INFO] Hostname set to Mynewserver
 2025-12-19 12:10:16 [INFO] NetManager exited
+2025-12-19 12:17:43 [INFO] NetManager started
+2025-12-19 12:18:10 [INFO] Add TEMP route: 192.168.54.0/24 via 192.168.54.1 dev ens33
+2025-12-19 12:18:12 [INFO] NetManager exited
+2025-12-19 12:25:10 [INFO] NetManager started
+2025-12-19 12:25:23 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 12:25:24 [INFO] NetManager exited
+2025-12-19 12:28:27 [INFO] NetManager started
+2025-12-19 12:28:34 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 12:28:36 [INFO] NetManager exited
+2025-12-19 12:31:50 [INFO] NetManager started
+2025-12-19 12:31:58 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 12:31:58 [ERROR] Invalid destination IP: 192.168.56.0/24
+2025-12-19 12:32:01 [INFO] NetManager exited
+2025-12-19 14:29:45 [INFO] NetManager started
+2025-12-19 14:29:54 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:29:54 [ERROR] Invalid destination IP: 192.168.56.0/24
+2025-12-19 14:29:55 [INFO] NetManager exited
+2025-12-19 14:33:15 [INFO] NetManager started
+2025-12-19 14:33:21 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:33:21 [INFO] EXEC: ip route add 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:33:21 [ERROR] Blocked dangerous command
+2025-12-19 14:33:21 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:33:22 [INFO] NetManager exited
+2025-12-19 14:35:13 [INFO] NetManager started
+2025-12-19 14:35:17 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:35:17 [ERROR] Invalid destination IP/CIDR: 192.168.56.0/24
+2025-12-19 14:35:19 [INFO] NetManager exited
+2025-12-19 14:37:11 [INFO] NetManager started
+2025-12-19 14:37:15 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:37:15 [ERROR] Invalid destination IP/CIDR: 192.168.56.0/24
+2025-12-19 14:37:16 [INFO] NetManager exited
+2025-12-19 14:38:33 [INFO] NetManager started
+2025-12-19 14:38:37 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:38:37 [INFO] EXEC: ip route add 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:38:37 [ERROR] Blocked dangerous command
+2025-12-19 14:38:37 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:38:38 [INFO] NetManager exited
+2025-12-19 14:49:02 [INFO] NetManager started
+2025-12-19 14:49:06 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:49:06 [INFO] EXEC: ip route add 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:49:06 [ERROR] Blocked dangerous command
+2025-12-19 14:49:06 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 14:49:08 [INFO] NetManager exited
+2025-12-19 17:58:37 [INFO] NetManager started
+2025-12-19 17:58:46 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 17:58:46 [INFO] EXEC: ip route add 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 17:58:46 [ERROR] Blocked dangerous command
+2025-12-19 17:58:46 [INFO] Add PERM route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 17:58:48 [INFO] NetManager exited
+2025-12-19 18:00:48 [INFO] NetManager started
+2025-12-19 18:00:54 [INFO] Add TEMP route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 18:00:54 [INFO] EXEC: ip route add 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 18:00:54 [ERROR] Blocked dangerous command
+2025-12-19 18:00:54 [INFO] Add TEMP route: 192.168.56.0/24 via 192.168.56.1 dev ens33
+2025-12-19 18:00:55 [INFO] NetManager exited
+2025-12-19 18:17:33 [INFO] NetManager started
+2025-12-19 18:18:24 [INFO] Add TEMP route: 10.10.10.0/24 via 192.168.116.2 dev ens33
+2025-12-19 18:18:24 [INFO] EXEC: ip route add 10.10.10.0/24 via 192.168.116.2 dev ens33
+2025-12-19 18:18:24 [ERROR] Blocked dangerous command
+2025-12-19 18:18:24 [INFO] TEMP route added: 10.10.10.0/24 via 192.168.116.2 dev ens33
+2025-12-19 18:18:26 [INFO] NetManager exited
+2025-12-19 18:22:03 [INFO] NetManager started
+2025-12-19 18:22:39 [INFO] Add TEMP route: 10.10.10.0/24 via 192.168.116.2 dev ens33
+2025-12-19 18:22:39 [INFO] TEMP route added: 10.10.10.0/24 via 192.168.116.2 dev ens33
+2025-12-19 18:22:41 [INFO] NetManager exited
+2025-12-19 18:23:31 [INFO] NetManager started
+2025-12-19 18:23:36 [INFO] NetManager exited
+2025-12-19 18:23:46 [INFO] NetManager started
+2025-12-19 18:24:06 [INFO] Add PERM route: 10.10.10.0/24 via 192.168.116.2 dev ens33
+2025-12-19 18:24:06 [INFO] PERM route saved: 10.10.10.0/24 via 192.168.116.2 dev ens33
+2025-12-19 18:24:06 [INFO] PERM route applied immediately: 10.10.10.0/24 via 192.168.116.2 dev ens33
+2025-12-19 18:24:08 [INFO] NetManager exited
+2025-12-19 18:25:12 [INFO] NetManager started
+2025-12-19 18:25:27 [INFO] Delete PERM route: 10.10.10.0/24 dev ens33
+2025-12-19 18:25:27 [INFO] PERM route removed from config: 10.10.10.0/24 dev ens33
+2025-12-19 18:25:27 [INFO] PERM route deleted: 10.10.10.0/24 dev ens33
+2025-12-19 18:25:29 [INFO] NetManager exited
